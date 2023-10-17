@@ -1,0 +1,276 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* main */
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1160px;
+  margin: 0px auto;
+  border: 2px solid #ffffff;
+}
+
+.main-content {
+  background-color: #ffffff;
+  padding: 40px 90px;
+  width: 650px;
+}
+
+/* about */
+.about {
+  margin-bottom: 40px;
+}
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0px;
+}
+
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #064c9e;
+  margin-bottom: 25px;
+}
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* width: 400px; */
+  margin: 0px;
+  color: #000000;
+}
+
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.project-link {
+  color: #0cc096;
+  margin-right: 5px;
+}
+
+.project-link {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.project-bracket {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #1d1048;
+  margin-bottom: 10px;
+}
+
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.projects-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+/* work */
+/* .work {
+  width: 525px;
+} */
+
+.work-position {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organization {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+}
+.education-organization {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+  margin-left: 10px;
+}
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Education */
+.Education {
+  margin-top: 20px;
+}
+
+.education-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: #021f3f;
+  padding-top: 40px;
+  width: 450px;
+}
+.photo {
+  width: 200px;
+  margin-bottom: 51px;
+  margin-left: 40px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin: 40px 40px 120px 40px;
+}
+.soft-skills {
+  margin: 40px 40px 115px 40px;
+}
+
+.contacts {
+  margin-bottom: 120px;
+}
+.sidebar-title {
+  color: #ffffff;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 27px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+.contact-tipe {
+  color: #12efbb;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.tech-skills-list {
+  color: #ffffff;
+  padding: 0;
+  margin-left: 15px;
+}
+
+.tech-skills-title {
+  color: #12efbb;
+}
+
+.tech-skills-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.soft-skills-list {
+  color: #ffffff;
+  padding: 0;
+  margin-left: 15px;
+}
+
+.soft-skills-title,
+.contacts-item {
+  color: #12efbb;
+}
+
+.soft-skills-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.contacts-list {
+  list-style: none;
+  padding-left: 0;
+}
+.project-github {
+  color: #000;
+}
+.work-functions {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
